@@ -5,7 +5,9 @@ import CaptureButton from './CaptureButton';
 import RegisterButton from './RegisterButton';
 
 const WebCam = styled.div`
-    position: static;
+    position: fixed;
+    left:650px;
+    top:170px;
     height:480px;
     border: 4px solid #ccc; /* Define border style */
     border-radius: 10px; /* Add border radius for a classy look */
