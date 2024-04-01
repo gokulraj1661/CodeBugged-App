@@ -31,7 +31,7 @@ const FaceDetection = () => {
     const imageSrc = captureImage();
     if (imageSrc) {
       try {
-        const response = await axios.post('http://localhost:10000/rec', { image: imageSrc });
+        const response = await axios.post('https://codebugged-app-3.onrender.com/rec', { image: imageSrc });
         setFaces(response.data.faces);
         alert('Login Succesfully!!');
       } catch (error) {
@@ -44,7 +44,7 @@ const FaceDetection = () => {
     const imageSrc = captureImage();
     if (imageSrc) {
       try {
-        const response = await axios.post('http://localhost:10000/register', { image: imageSrc });
+        const response = await axios.post('https://codebugged-app-3.onrender.com/register', { image: imageSrc });
         setFaces(response.data.faces);
         alert('Registered Sucessfully!!');
       } catch (error) {
