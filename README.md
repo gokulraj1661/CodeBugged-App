@@ -1,5 +1,5 @@
 # Face Detection and Recognition System (CodeBugged Full Stack Application)
-
+# Note-The app taking around 10min to recognize face as I not used any gpu and render is free hosting platform which have high latency so kindly bare for response.For your idea attaching screen shot at the end.
 This project implements a web-based face detection and recognition system using React.js for the frontend and Express.js with face-api.js for the backend. It allows users to register their faces and subsequently login by detecting and recognizing faces through the webcam.
 
 ## Features
@@ -65,4 +65,6 @@ This project implements a web-based face detection and recognition system using 
 - This project utilizes the [`face-api.js`](https://github.com/justadudewhohacks/face-api.js/) library for face detection and recognition.
 - This project deployed frontedn on Vercel
 - This project deployed backend on Render
+## ScreenShot for the delay
+![image](https://github.com/gokulraj1661/CodeBugged-App/assets/90254712/c9ab8b32-8d17-472d-af4a-0d2cb7876177)
 
