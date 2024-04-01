@@ -57,7 +57,7 @@ This project implements a web-based face detection and recognition system using 
 4. If logging in, the system will attempt to recognize your face and grant access accordingly.
 
 ## Deployment
-1. Frontend `https://code-bugged-7dblu9km6-gokulraj1661s-projects.vercel.app/`
+1. Frontend `https://code-bugged-app.vercel.app/`
 2. Backend `https://codebugged-app-3.onrender.com`
 
 ## Credits
