@@ -15,7 +15,7 @@ This project implements a web-based face detection and recognition system using 
 1. Clone the repository and Navigate to Repo:
     ```bash
     git clone https://github.com/gokulraj1661/CodeBugged-App.git
-    cd Frontend
+    cd face-recognition-app
     ```
 2. Start Frontend
     ```bash
